@@ -1,0 +1,14 @@
+.banner-container {
+    cursor: pointer; /* Change cursor to pointer when hovering */
+    overflow: hidden; /* Hide overflowing content for smooth scrolling effect */
+  }
+  
+  .banner-container img {
+    width: 100%;
+    transition: transform 0.5s ease; /* Add smooth transition effect */
+  }
+  
+  .banner-container:hover img {
+    transform: scale(1.1); /* Apply scaling effect on hover */
+  }
+  

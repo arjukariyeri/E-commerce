@@ -1,0 +1,87 @@
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.fields input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container button {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #fd1414;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #000000;
+}
+
+.exists {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+}
+
+.exists span {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #495057;
+}
+
+.agree input {
+    margin-right: 10px;
+}
+
+.agree label {
+    margin: 0;
+}
+
+.agree label a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.agree label a:hover {
+    text-decoration: underline;
+}
